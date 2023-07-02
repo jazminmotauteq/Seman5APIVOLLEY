@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="Btenviar"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:background="#DBF5F8"
+        android:text="INICIO_DE_SECION"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="99dp"
+        android:text="USUARIO:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="185dp"
+        android:text="CLAVE:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="carlos@gmail.com" />
+
+    <Button
+        android:id="@+id/btenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="267dp"
+        android:backgroundTint="#CC517B"
+        android:onClick="Btenviar"
+        android:text="ENVIAR "
+        android:textColor="#201D1D" />
+
+    <EditText
+        android:id="@+id/txtclave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="12345678" />
+
+    <TextView
+        android:id="@+id/txtaleta"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginBottom="246dp"
+        android:background="#C0EDF3" />
+</RelativeLayout>
